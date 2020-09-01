@@ -9,11 +9,11 @@ let isInitialLoad = true;
 
 //Unsplash API
 const initialCount = 5;
-// const apiKey = config.APIKey;
-let apiUrl = `https://api.unsplash.com/photos/random/?client_id=${config.APIKey}&count=${initialCount}`;
+const apiKey = "-ETt0O_xGO2ajnm-p1c8vRXivQgG2BKe9eDdxpK0lEs";
+let apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${initialCount}`;
 
 function updateAPIURLWithNewCount(PCount) {
-  apiUrl = `https://api.unsplash.com/photos/random/?client_id=${config.APIKey}&count=${PCount}`;
+  apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${PCount}`;
 }
 
 // check if all images were loaded
