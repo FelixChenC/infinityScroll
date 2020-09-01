@@ -5,3 +5,5 @@ Using JavaScript to allow user to get photo from Unsplash API(free photo resourc
 Keep scrolling down, scroll event will render 30 new random photos at a time to display on the app.
 
 You can visit demo on https://felixchenc.github.io/infinityScroll/
+
+#Please do not use my Unsplash API for illegal act.
